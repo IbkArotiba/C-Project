@@ -17,25 +17,25 @@ std::cout << "====================\n";
 std::cout << "rock paper scissors!\n";
 std::cout << "====================\n";
 
-std::cout << "1) ✊\n";
-std::cout << "2) ✋\n";
-std::cout << "3) ✌️\n";
+std::cout << "1) \n";
+std::cout << "2) \n";
+std::cout << "3) \n";
 
 std::cout << "shoot! ";
 std::cin >> user;
 if (user == 1)
-    std::cout << "you choose: ✊\n";
+    std::cout << "you choose: rock \n";
   else if (user == 2)
-    std::cout << "you choose: ✋\n";
+    std::cout << "you choose: paper \n";
   else
-    std::cout << "you choose: ✌️\n";
+    std::cout << "you choose:scissors \n";
 
   if (computer == 1)
-    std::cout << "cpu choose: ✊\n";
+    std::cout << "cpu choose: rock \n";
   else if (computer == 2)
-    std::cout << "cpu choose: ✋\n";
+    std::cout << "cpu choose: paper \n";
   else
-    std::cout << "cpu choose: ✌️\n";
+    std::cout << "cpu choose: scissors\n";
 
 
   if (user == computer) {
